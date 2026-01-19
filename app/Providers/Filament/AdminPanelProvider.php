@@ -27,7 +27,6 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->autoLinkStorage(false)
             ->colors([
                 'primary' => Color::Amber,
             ])
